@@ -5,7 +5,7 @@ Culqi.publicKey = 'pk_test_Og9KU3vS6PKZ50oL';
     title: 'Culqi Store',
     currency: 'PEN',
     description: 'Polo/remera Culqi lover',
-    amount: 500
+    amount: 300
   });
 
 $('#buyButton').on('click', function(e) {
