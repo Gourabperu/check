@@ -1,4 +1,4 @@
-Culqi.publicKey = 'pk_test_Og9KU3vS6PKZ50oL';
+Culqi.publicKey = 'pk_test_WHnRjtNKirqLPOxM';
 
 
   Culqi.settings({
@@ -11,7 +11,9 @@ Culqi.publicKey = 'pk_test_Og9KU3vS6PKZ50oL';
 $('#buyButton').on('click', function(e) {
     // Abre el formulario con la configuración en Culqi.settings
     Culqi.open();
-    e.preventDefault();
+    e.preventDefault();rder Id y asociarlo al detalle de tu venta.
+    Además, tu venta en tu comercio debe quedar estado pendiente.
+  */
 });
 
 function culqi() {
