@@ -3,9 +3,9 @@ Culqi.publicKey = 'pk_test_WHnRjtNKirqLPOxM';
 
   Culqi.settings({
     title: 'Culqi Store',
-    currency: 'PEN',
+    currency: 'USD',
     description: 'Polo/remera Culqi lover',
-    amount: 300
+    amount: 500
   });
 
 $('#buyButton').on('click', function(e) {
@@ -24,7 +24,7 @@ function culqi() {
     }
     else if (Culqi.order) {
         console.log(Culqi.order)
-  
+
         alert('Se ha elegido el metodo PagoEfectivo');
   
          /* Aqui enviar al servidor el order Id y asociarlo al detalle de tu venta.
