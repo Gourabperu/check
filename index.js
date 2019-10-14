@@ -1,3 +1,4 @@
+
 Culqi.publicKey = 'pk_test_WHnRjtNKirqLPOxM';
 
 
@@ -8,13 +9,12 @@ Culqi.publicKey = 'pk_test_WHnRjtNKirqLPOxM';
     amount: 500
   });
 
-$('#buyButton').on('click', function(e) {
+  $('#buyButton').on('click', function(e) {
     // Abre el formulario con la configuración en Culqi.settings
     Culqi.open();
-    e.preventDefault();rder Id y asociarlo al detalle de tu venta.
-    Además, tu venta en tu comercio debe quedar estado pendiente.
-  */
+    e.preventDefault();
 });
+
 
 function culqi() {
     if (Culqi.token) { // ¡Objeto Token creado exitosamente!
